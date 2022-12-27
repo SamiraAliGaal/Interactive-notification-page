@@ -1,0 +1,129 @@
+*{
+  margin:0;
+  box-sizing: border-box ;
+}
+
+body{
+  min-height: 100vh;
+  background-color: hsl(210, 60%, 98%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.container{
+  background-color: white;
+  padding:2rem;
+  margin-top: 63px;
+  margin-bottom: 63px;
+  border-radius: 1rem;
+  width: 730px;
+  height: 829px;
+  color: hsl(219, 12%, 42%);
+}
+
+.name{
+  color: black;
+}
+
+.navi{
+  display: flex;
+  flex-direction: row;
+  gap: 18rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.notify-header{
+  display:flex;
+  gap: 0.2rem
+}
+
+.notify-number{
+  padding: 10px;
+  
+}
+#notification{
+  background-color: hsl(219, 85%, 26%);
+  width: 32px;
+  height: 25px;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  
+}
+
+.marked-read{
+  padding-top: 15px;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+  
+
+}
+
+.user-comments.unread{
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.unread p:first-child:after{
+  content: '';
+  background-color: hsl(1, 90%, 64%);
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.2rem;
+  
+}
+
+
+
+.user-comments{
+  display: flex;
+  padding: 1rem ;
+  margin-bottom: 0.625rem;
+  word-spacing: 2.2px;
+}
+
+.time{
+  padding-top: 0.2rem;
+  color:hsl(219, 14%, 63%);
+}
+
+.user-comments img{
+  width: 45px;
+  height: 45px;
+}
+
+.user-text{
+  padding-left: 1rem;
+}
+
+.bold{
+  font-weight: bold;
+  color:hsl(219, 12%, 42%);
+}
+
+.bold-blue{
+  font-weight: bold;
+  color: hsl(219, 85%, 26%);
+}
+
+.private-message{
+ border-style: solid;
+ border-width: 0.3px;
+ border-radius: 0.3rem;
+ border-color: hsl(205, 33%, 90%) ;
+ margin-top: 0.625rem;
+ padding: 1rem 0.8rem;
+ 
+}
+
+.commented{
+  margin-left: 182px;
+}
